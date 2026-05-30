@@ -1,0 +1,46 @@
+{
+  "name": "maintainer-sentinel",
+  "version": "0.1.0",
+  "description": "A GitHub maintainer assistant that turns issues, PRs, releases, and repo health signals into actionable maintenance reports.",
+  "type": "module",
+  "bin": {
+    "maintainer-sentinel": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "clean": "node -e \"fs.rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "github",
+    "maintainers",
+    "open-source",
+    "triage",
+    "cli",
+    "release-notes"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^25.0.3",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0",
+    "vitest": "^4.0.16"
+  }
+}

@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a problem with Maintainer Sentinel.
+title: "Bug: "
+labels: ["bug", "needs triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include the command, repository target, and relevant output.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: maintainer-sentinel 0.1.0

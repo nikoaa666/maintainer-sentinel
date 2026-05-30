@@ -1,0 +1,25 @@
+name: Maintainer Sentinel
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+      pull-requests: read
+    steps:
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+      - run: npx maintainer-sentinel action "$GITHUB_REPOSITORY" > maintainer-report.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v5
+        with:
+          name: maintainer-sentinel-report
+          path: maintainer-report.md
