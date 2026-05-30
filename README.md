@@ -4,6 +4,10 @@ A GitHub maintainer assistant that turns issues, PRs, releases, and repo health 
 
 Maintainer Sentinel is intentionally read-only in its first release. It does not comment, label, close issues, or mutate repositories. It fetches public GitHub metadata and produces a Markdown report a maintainer can review before taking action.
 
+## Project status
+
+Maintainer Sentinel is a new OSS project in `v0.1.x`. The first milestone is a stable read-only report generator for public GitHub repositories. The project is intentionally scoped so maintainers can inspect every recommendation before acting.
+
 ## Why this exists
 
 Small and mid-sized open source maintainers often carry the whole maintenance loop: issue triage, PR review, release planning, documentation updates, and security follow-up. Maintainer Sentinel helps make that work visible and repeatable without replacing maintainer judgment.
@@ -47,6 +51,10 @@ GITHUB_TOKEN=ghp_your_token maintainer-sentinel report owner/repo
 - PR queue: age, review state, and merge-risk hints
 - Release readiness
 - Maintainer actions, capped at 10 suggestions
+
+## Example Output
+
+See [examples/example-report.md](examples/example-report.md) for a sample report generated from fixture data.
 
 ## GitHub Action Example
 
@@ -98,6 +106,10 @@ npm install
 npm test
 npm run build
 ```
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for the current release plan and adoption milestones.
 
 ## License
 

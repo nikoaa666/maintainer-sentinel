@@ -1,0 +1,31 @@
+name: Maintainer feedback
+description: Share feedback from trying Maintainer Sentinel on an OSS repository.
+title: "Feedback: "
+labels: ["feedback", "needs triage"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository tested
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: useful
+    attributes:
+      label: What was useful?
+      description: Which report section helped your maintenance workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: noisy
+    attributes:
+      label: What was noisy or missing?
+      description: Tell us where the report should be more accurate.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: What should it detect next?
+      description: Suggest one maintainer action or signal to add.

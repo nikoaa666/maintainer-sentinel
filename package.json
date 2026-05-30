@@ -9,7 +9,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "engines": {
     "node": ">=20"
@@ -28,10 +29,20 @@
     "open-source",
     "triage",
     "cli",
-    "release-notes"
+    "release-notes",
+    "github-actions",
+    "maintainer-tools"
   ],
-  "author": "",
+  "author": "Monesy Ilya",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikoaa666/maintainer-sentinel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikoaa666/maintainer-sentinel/issues"
+  },
+  "homepage": "https://github.com/nikoaa666/maintainer-sentinel#readme",
   "dependencies": {
     "commander": "^14.0.2"
   },
