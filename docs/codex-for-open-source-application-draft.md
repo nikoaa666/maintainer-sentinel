@@ -1,19 +1,91 @@
 # Codex for Open Source Application Draft
 
-Use this as a truthful starting point. Replace bracketed values with real data after publishing the repository and collecting initial feedback.
+Current public repository:
 
-## Role
+- GitHub username: `nikoaa666`
+- Repository: `https://github.com/nikoaa666/maintainer-sentinel`
+- Visibility: public
+- License: MIT
+- Primary language: TypeScript
+- Current public signals as of 2026-05-31 UTC+8: 0 stars, 0 forks, 0 open issues, npm package not published yet
 
-Primary maintainer.
+## Form Fields
 
-## Why this repository qualifies
+### Last name
 
-Maintainer Sentinel is an early-stage open source maintainer tool for small and mid-sized GitHub projects. It generates read-only reports from issues, PRs, releases, and security-like signals so maintainers can triage faster without unsafe automation. Current signals: [stars], [npm downloads], [demo repositories], [maintainer feedback count].
+Fill with your legal/family name.
 
-## API credit usage
+### First name
 
-I will use API credits to add optional, reviewable AI features for open source maintenance: summarizing long issue threads, drafting PR review checklists, drafting release notes, and highlighting security-like reports for maintainer review. The default workflow will remain read-only and transparent.
+Fill with your legal/given name.
 
-## Additional notes
+### Email
 
-This is a new project, so I will report only real adoption metrics. The project is intentionally scoped to reduce maintainer burden for OSS projects without auto-closing, auto-labeling, or mutating repositories by default.
+Use the email associated with your ChatGPT account.
+
+Suggested if it matches your ChatGPT account:
+
+```text
+nikoaa666666@gmail.com
+```
+
+### GitHub username
+
+```text
+nikoaa666
+```
+
+### GitHub repository URL
+
+```text
+https://github.com/nikoaa666/maintainer-sentinel
+```
+
+### Describe your role: primary maintainer or core maintainer?
+
+```text
+Primary maintainer. I created and maintain the project, including the CLI, GitHub API integration, tests, documentation, CI, release workflow, and security policy.
+```
+
+### Why does this repository qualify?
+
+```text
+Maintainer Sentinel is a new public TypeScript OSS CLI for small and mid-sized GitHub maintainers. It generates read-only reports from issues, PRs, releases, and security-like signals, helping with triage, review queues, and release readiness. Current signals: 0 stars, 0 forks, npm not yet published. I am applying honestly as an early maintainer tool with clear OSS maintenance value.
+```
+
+### I am interested in
+
+Select:
+
+```text
+API credits for coding, maintenance automation, release workflows, and core open source work
+```
+
+Optional only if the form allows selecting security access and you want to build the security-like triage feature:
+
+```text
+Conditional access to Codex Security
+```
+
+### OpenAI organization ID
+
+Fill from your OpenAI platform organization settings. Do not guess this value.
+
+### How will you use API credits for your project?
+
+```text
+I will use API credits for optional, reviewable OSS maintenance features: summarizing long issue threads, drafting PR review checklists, drafting release notes from merged work, and highlighting security-like reports for maintainer review. The default workflow will remain read-only and transparent; AI output will assist maintainers, not automatically mutate repositories.
+```
+
+### Anything else to share?
+
+```text
+This is a newly launched project, so I am reporting only real adoption metrics and not inflating usage. The repository is public, MIT licensed, tested, documented, and scoped to reduce OSS maintainer burden without auto-closing, auto-labeling, or otherwise mutating repositories by default.
+```
+
+## Pre-submit Checklist
+
+- Publish the npm package if possible, then update the npm status above.
+- Add the OpenAI organization ID from the official OpenAI platform page.
+- Confirm the email is the same one used for your ChatGPT account.
+- If the project gains stars, downloads, issues, or user feedback before submitting, update the public signals honestly.
