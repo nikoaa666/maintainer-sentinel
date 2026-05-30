@@ -69,7 +69,9 @@ Conditional access to Codex Security
 
 ### OpenAI organization ID
 
-Fill from your OpenAI platform organization settings. Do not guess this value.
+```text
+org-PaY5Djz9ykqyyzKw8s7RCG4i
+```
 
 ### How will you use API credits for your project?
 
