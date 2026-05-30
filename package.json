@@ -4,7 +4,7 @@
   "description": "A GitHub maintainer assistant that turns issues, PRs, releases, and repo health signals into actionable maintenance reports.",
   "type": "module",
   "bin": {
-    "maintainer-sentinel": "./dist/cli.js"
+    "maintainer-sentinel": "dist/cli.js"
   },
   "files": [
     "dist",
