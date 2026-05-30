@@ -13,20 +13,20 @@ Current public repository:
 
 ### Last name
 
-Fill with your legal/family name.
+```text
+Ilya
+```
 
 ### First name
 
-Fill with your legal/given name.
+```text
+Monesy
+```
 
 ### Email
 
-Use the email associated with your ChatGPT account.
-
-Suggested if it matches your ChatGPT account:
-
 ```text
-nikoaa666666@gmail.com
+monesyilya3@gmail.com
 ```
 
 ### GitHub username
