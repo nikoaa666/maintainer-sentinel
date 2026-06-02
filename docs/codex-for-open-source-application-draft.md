@@ -7,7 +7,8 @@ Current public repository:
 - Visibility: public
 - License: MIT
 - Primary language: TypeScript
-- Current public signals as of 2026-05-31 UTC+8: 0 stars, 0 forks, 0 open issues, npm package not published yet
+- npm package: `https://www.npmjs.com/package/maintainer-sentinel`
+- Current public signals as of 2026-06-03 UTC+8: 0 stars, 0 forks, 0 open issues, npm package published as `maintainer-sentinel@0.1.0`
 
 ## Form Fields
 
@@ -50,7 +51,7 @@ Primary maintainer. I created and maintain the project, including the CLI, GitHu
 ### Why does this repository qualify?
 
 ```text
-Maintainer Sentinel is a new public TypeScript OSS CLI for small and mid-sized GitHub maintainers. It generates read-only reports from issues, PRs, releases, and security-like signals, helping with triage, review queues, and release readiness. Current signals: 0 stars, 0 forks, npm not yet published. I am applying honestly as an early maintainer tool with clear OSS maintenance value.
+Maintainer Sentinel is a new public TypeScript OSS CLI for small and mid-sized GitHub maintainers. It generates read-only reports from issues, PRs, releases, and security-like signals, helping with triage, review queues, and release readiness. Current signals: 0 stars, 0 forks, npm package published as maintainer-sentinel@0.1.0. I am applying honestly as an early maintainer tool with clear OSS maintenance value.
 ```
 
 ### I am interested in
@@ -87,7 +88,7 @@ This is a newly launched project, so I am reporting only real adoption metrics a
 
 ## Pre-submit Checklist
 
-- Publish the npm package if possible, then update the npm status above.
+- npm package is published: `https://www.npmjs.com/package/maintainer-sentinel`.
 - Add the OpenAI organization ID from the official OpenAI platform page.
 - Confirm the email is the same one used for your ChatGPT account.
 - If the project gains stars, downloads, issues, or user feedback before submitting, update the public signals honestly.
